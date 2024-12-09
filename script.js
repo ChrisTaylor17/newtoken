@@ -1,5 +1,5 @@
 // Define the contract address and ABI (you should deploy your contract on Sepolia and get the address and ABI)
-const tokenAddress = "0xff8e57e96eca2eac66ad3fd6e3c95b6cc1efc981";  // Replace with your ERC-20 contract address
+const tokenAddress = 0xff8e57e96eca2eac66ad3fd6e3c95b6cc1efc981;  // Replace with your ERC-20 contract address
 const tokenABI = [[
 	{
 		"inputs": [
