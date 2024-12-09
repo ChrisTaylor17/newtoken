@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ERC-20 Token Interaction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Connect to ERC-20 Token</h1>
+    <button id="connectButton">Connect Wallet</button>
+    <div id="walletInfo"></div>
+    
+    <div id="balanceSection" style="display: none;">
+      <h3>Check Balance</h3>
+      <button id="checkBalanceButton">Check Balance</button>
+      <div id="balanceDisplay"></div>
+    </div>
+
+    <div id="transferSection" style="display: none;">
+      <h3>Transfer Tokens</h3>
+      <input type="text" id="recipientAddress" placeholder="Recipient Address">
+      <input type="number" id="amount" placeholder="Amount">
+      <button id="transferButton">Transfer Tokens</button>
+      <div id="transferStatus"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
